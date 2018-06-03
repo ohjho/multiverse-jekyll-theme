@@ -1,11 +1,11 @@
 # Site settings
 title: Véro + John
-description: sneak peek of photos from Tipsy, 31st March 2018
+description: photos from 31.03.2018
 baseurl: "/gallery_tai_hang" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
-image_dir: "assets/images/1200x750/"
-image_tn_dir: "assets/images/360x225/"
+image_dir: "images/fulls/" #1200x750
+image_tn_dir: "images/thumbs/"  #360x225
 
 # Collection settings
 collections:
