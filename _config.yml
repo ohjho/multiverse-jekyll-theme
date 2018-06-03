@@ -7,9 +7,8 @@ author:
 image_dir: "images/fulls/" #1200x750
 image_tn_dir: "images/thumbs/"  #360x225
 
-# Collection settings
-collections:
-  photos:
+# Google Analytics
+google_analytics_tracking_id: UA-113486763-2
 
 # Social settings
 500px_url:
