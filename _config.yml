@@ -1,6 +1,6 @@
 # Site settings
 title: Véro + John
-description: photos from 31.03.2018
+description: 'photos from 31.03.2018 by <a href="http://lemonteahk.com" target="_blank">LemonTeaHK</a>'
 baseurl: "/gallery_tai_hang" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
