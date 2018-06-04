@@ -17,10 +17,13 @@
 
 				<!-- Main -->
 					<div id="main">
-            {% for photo in site.data.photo_listing %}
+            {% for photo in site.data.photo_list[page.subdir_name] %}
+							{% capture thumb_img_url %}
+								{{site.baseurl}}/{{ site.image_tn_dir }}{{ page.subdir_name }}/{{ photo.thumbnail }}
+							{% endcapture %}
 						<article class="thumb">
-							<a href="{{ site.image_dir }}{{ photo.image }}" class="image">
-                <img src="{{ site.image_tn_dir }}{{ photo.thumbnail }}" alt="" /></a>
+							<a href="{{site.baseurl}}/{{ site.image_dir }}{{ page.subdir_name }}/{{ photo.image }}" class="image">
+                <img src="{{ thumb_img_url }}" alt="" /></a>
 							<h2>{{ photo.title }}</h2>
 							<p>{{ photo.caption }}</p>
 						</article>

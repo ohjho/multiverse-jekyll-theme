@@ -2,3 +2,5 @@ _site/
 .ruby-version
 Gemfile.lock
 *.gem
+images/fulls/.DS_Store
+images/thumbs/.DS_Store

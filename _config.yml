@@ -1,6 +1,6 @@
 # Site settings
 title: Véro + John
-description: 'photos from 31.03.2018 by <a href="http://lemonteahk.com" target="_blank">LemonTeaHK</a>'
+description: # currently not in use
 baseurl: "/gallery_tai_hang" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
@@ -13,7 +13,7 @@ google_analytics_tracking_id: UA-113486763-2
 
 # Footer data
 footer_title: More + Download
-footer_text: 'More pictures available by <a href="#">Mike Szeto</a>. <br/><br/><a href="http://files.johnho.ca/owncloud/index.php/s/Iw6p3e5t3CsiFV9">Download</a> these awesome pictures (Password: littletaihang).'
+footer_text: # see include footer_text
 show_social: false
 show_contact_form: false
 credit_text: 'Created with  &hearts; by <a href="http://johnho.ca">JHO</a>.'
